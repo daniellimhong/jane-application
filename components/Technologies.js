@@ -1,7 +1,7 @@
 import React from "react";
 import { WindupChildren } from "windups";
 import styled from "styled-components";
-import { urls } from "../config/styles";
+import { urls } from "../config/urls";
 
 const Technologies = props => {
   const { setStep } = props;
@@ -13,7 +13,7 @@ const Technologies = props => {
         <img src={urls.javascript} alt="javascript" />
         <img src={urls.react} alt="react" />
         <img src={urls.node} alt="node" />
-        <img src={urls.postgres} alt="node" />
+        <img src={urls.postgres} alt="postgres" />
         <p>Wait! There's definitely more to that list!</p>
         <p>
           Check{" "}
@@ -23,8 +23,8 @@ const Technologies = props => {
           out to get a full list
         </p>
         <>
-          <button onClick={() => setStep(0)}>Back</button>
           <button onClick={() => setStep(2)}>Continue</button>
+          <button onClick={() => setStep(0)}>Back</button>
         </>
       </TechContainer>
     </WindupChildren>

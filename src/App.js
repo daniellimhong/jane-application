@@ -3,7 +3,6 @@ import styled from "styled-components";
 import Introduction from "../components/Introduction";
 import Technologies from "../components/Technologies";
 import Values from "../components/Values";
-// import urls from "../config/styles";
 
 export default function App() {
   const [step, setStep] = useState(0);
@@ -23,7 +22,5 @@ const Main = styled.div`
   * {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-  }
-  .App {
   }
 `;

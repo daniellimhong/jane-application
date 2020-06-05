@@ -1,7 +1,7 @@
 import React from "react";
 import { WindupChildren } from "windups";
 import styled from "styled-components";
-import { urls } from "../config/styles";
+import { urls } from "../config/urls";
 
 const Introduction = props => {
   const { setStep } = props;
