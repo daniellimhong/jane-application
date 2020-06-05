@@ -14,16 +14,16 @@ const Values = props => {
         <div style={{ width: "40rem" }}>
           <p style={{ textAlign: "center" }}>
             I believe I am a great fit because I embrace self-improvement and
-            continious learning in an effort to contribute and deliver RESULTS.
+            continuous learning to contribute and deliver results. <br />
             I thrive in an team environment where collaboration is valued and
-            camaraderie is present. Ultimately, I find joy in the craft of
-            building things and seeing ideas come to life!
+            camaraderie is present. <br />
+            Ultimately, I find joy in the craft of building things and seeing
+            ideas come to life!
           </p>
         </div>
 
         <>
           <button onClick={() => setStep(1)}>Back</button>
-          <button onClick={() => setStep(3)}>Continue</button>
         </>
       </WindupChildren>
     </ValuesContainer>
