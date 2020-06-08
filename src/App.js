@@ -22,5 +22,10 @@ const Main = styled.div`
   * {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
+    text-align: center;
+  }
+
+  p {
+    font-size: 0.8rem;
   }
 `;
