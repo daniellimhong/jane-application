@@ -11,7 +11,7 @@ const Values = props => {
       <WindupChildren>
         <h2>{"I snagged this from the job description....."}</h2>
         <img src={janesValues} alt="janes values" />
-        <div style={{ width: "40rem" }}>
+        <div className="Textbox">
           <p style={{ textAlign: "center" }}>
             I believe I am a great fit because I embrace self-improvement and
             continuous learning to contribute and deliver results. <br />
@@ -37,6 +37,10 @@ const ValuesContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  .Textbox {
+    width: 20rem;
+  }
 
   img {
     width: 25rem;
